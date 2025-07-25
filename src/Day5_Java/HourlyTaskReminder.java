@@ -8,6 +8,7 @@ public class HourlyTaskReminder {
         Timer timer = new Timer();
 
         // Reminder 1: Every 30 minutes
+        
         timer.scheduleAtFixedRate(new TimerTask() {
             @Override
             public void run() {
@@ -16,7 +17,9 @@ public class HourlyTaskReminder {
         }, 0, 30 * 60 * 1000); // 30 minutes
 
         // Reminder 2: Every 1 hour
+        
         timer.scheduleAtFixedRate(new TimerTask() {
+        	
             @Override
             public void run() {
                 System.out.println("[Reminder] Time to stretch your body!");
@@ -24,7 +27,9 @@ public class HourlyTaskReminder {
         }, 0, 60 * 60 * 1000); // 1 hour
 
         // Reminder 3: Every 2 hours
+        
         timer.scheduleAtFixedRate(new TimerTask() {
+        	
             @Override
             public void run() {
                 System.out.println("[Reminder] Take an eye break!");

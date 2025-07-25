@@ -13,6 +13,7 @@ public class AttendanceSystem {
         String[] attendance = new String[n];
 
         // Taking student names
+        
         System.out.println("\nEnter student names:");
         for (int i = 0; i < n; i++) {
             System.out.print("Student " + (i + 1) + ": ");
@@ -20,6 +21,7 @@ public class AttendanceSystem {
         }
 
         // Marking attendance
+        
         System.out.println("\nMark attendance (P for Present, A for Absent):");
         for (int i = 0; i < n; i++) {
             System.out.print(students[i] + " (P/A): ");
@@ -28,6 +30,7 @@ public class AttendanceSystem {
         }
 
         // Displaying attendance
+        
         System.out.println("\nAttendance Report:");
         System.out.println("Name\t\tAttendance");
         System.out.println("---------------------------");
