@@ -22,9 +22,9 @@ class MultiFunctionMachine implements Printable, Scannable {
 
 public class Multiple_Interface_Exmaple {
  public static void main(String[] args) {
-     MultiFunctionMachine mfm = new MultiFunctionMachine();
-     mfm.print();   
-     mfm.scan();    
+     MultiFunctionMachine m = new MultiFunctionMachine();
+     m.print();   
+     m.scan();    
  }
 }
 

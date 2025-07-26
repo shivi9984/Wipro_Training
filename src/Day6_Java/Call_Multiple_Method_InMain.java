@@ -46,12 +46,15 @@ public class Call_Multiple_Method_InMain {
 
         switch (choice) {
             case 1:
+            	pg.processPayment();
                 pg.payByCreditCard();
                 break;
             case 2:
+            	pg.processPayment();
                 pg.payByUPI();
                 break;
             case 3:
+            	pg.processPayment();
                 pg.payByWallet();
                 break;
             default:
