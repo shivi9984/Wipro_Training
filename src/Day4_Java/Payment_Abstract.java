@@ -38,7 +38,7 @@ class UPI extends Payment{
 	}
 }
 
-public class Payments{
+public class Payment_Abstract{
 	public static void main(String[] arg) {
 		Payment p1 = new CreditCardPayment(20000);
 		p1.makePayment();

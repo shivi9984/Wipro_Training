@@ -1,4 +1,4 @@
-package Day7_Package_Exception;
+package Day7_Package_ExceptionHandling;
 
 import java.io.BufferedReader;
 import java.io.File;

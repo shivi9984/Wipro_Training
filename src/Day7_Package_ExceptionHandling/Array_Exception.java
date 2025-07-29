@@ -1,4 +1,4 @@
-package Day7_Package_Exception;
+package Day7_Package_ExceptionHandling;
 
 public class Array_Exception {
 	public static void main(String[] args) {
