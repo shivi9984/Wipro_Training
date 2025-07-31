@@ -31,7 +31,7 @@ public class TwoFile_Compare {
 			f2.close();
 			
 			if(areSame) {
-				System.out.println("Both files have same cotents.");
+				System.out.println("Both files have same content.");
 			}
 		}
 		

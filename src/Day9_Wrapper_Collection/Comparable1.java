@@ -19,7 +19,7 @@ public class Comparable1 {
 			}
 		};
 				
-		List<Integer> l1 = new ArrayList<>();
+		List l1 = new ArrayList();
 		l1.add(10);
 		l1.add(40);
 		l1.add(50);
