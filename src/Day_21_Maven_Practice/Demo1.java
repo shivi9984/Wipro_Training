@@ -1,4 +1,4 @@
-package testDemo1;
+package Day_21_TestDemo;
 
 import org.testng.annotations.Test;
 
